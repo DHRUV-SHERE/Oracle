@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:rgb(244, 240, 236);
+}
+    
+.navbar {
+    display: flex;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+}
+
+.logo {
+    width: 38%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.logo img {
+    width: 30%;
+    border: 3px solid black;
+    /* border-radius: 5px; */
+}
+
+.nav-list {
+    width: 60%;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-list li {
+    list-style: none;
+    padding: 22px;
+    cursor: pointer;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-list li a:hover {
+    /* color: gray; */
+    background-color: gray;
+}
+
+.nav-list a:active{
+    text-decoration: underline;
+}
+
+.right {
+    /* background-color: aqua; */
+    width: 50%;
+    text-align: right;
+    margin-top: 2px;
+    margin-right: 70px;
+}
+
+#search {
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.btn-sm {
+    padding: 2px 18px;
+    margin: 31px 21px;
+    font-size: 16px;
+    background: none;
+    cursor: pointer;
+    color: white;
+    border: 2px solid white;
+    vertical-align: auto;
+}
+
+.btn-sm:hover {
+    background-color: grey;
+}
+
+.background {
+    background: rgba(0, 0, 0, 0.7) url(../Image/City.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 30px 80px;
+    font-size: 23px;
+    padding: 54px;
+}
+
+.content p{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* display: inline-block; */
+    /* padding: 12px; */
+    /* font-weight: bold; */
+    
+}
+
+.img img{
+    display: flex;
+    width: 62%;
+    margin-left: 111%;
+    margin-top: -140%;
+    border: 5px solid black ;
+}
+
+.img h6{
+    width: 23%;
+    margin-left: 132%;
+    font-size: 26px;
+    margin-top: 10px;
+    border: 2px solid black;
+    padding: 20px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 35px 75px;
+}
+
+h4{
+    margin: 10px 20px;
+    font-size: 13px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+h4:hover{
+    text-decoration: underline;
+    color: gray;
+    cursor: pointer;
+}
+
+.middlesec{
+    width: 68%;
+    text-align: center;
+    padding: 38px 52px;
+    display: flex;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h6{
+    /* width: 50%; */
+    /* text-align: center; */
+    color:black;
+    font-size: 50px;
+}
+h5{
+    color: black;
+    text-align: left;
+    /* width: 50%; */
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.copyright{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 0px;
+    font-size: 20px;
+}
